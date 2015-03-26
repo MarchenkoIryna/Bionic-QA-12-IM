@@ -20,15 +20,17 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="data">
-			<Node name="{d5a6efc8-7f0a-48e8-a62e-71a0c43dfa9a}">
-				<Prp name="relpath" type="S" value="Project1\Project1.mds.tcLS"/>
+			<Node name="{37db1406-da65-44c5-9d6b-849c72e78e5a}">
+				<Node name="{43da0cc1-e470-485e-b147-37f8ade6731d}">
+					<Prp name="filepath" type="S" value=""/>
+				</Node>
 			</Node>
 			<Node name="logs">
-				<Prp name="key" type="S" value="{E22613B6-AB85-4492-9690-F2C531405C62}"/>
+				<Prp name="key" type="S" value="{CFD3507E-93E5-4425-B7D6-67867D6E0886}"/>
 				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
 			<Node name="variables"/>
 		</Node>
-		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
 	</Node>
 </Nodes>

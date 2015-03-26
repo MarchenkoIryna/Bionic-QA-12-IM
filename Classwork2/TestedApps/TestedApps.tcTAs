@@ -56,7 +56,7 @@
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="filename" type="S" value="calc.EXE"/>
-					<Prp name="filepath" type="S" value="C:\WINDOWS\system32\"/>
+					<Prp name="filepath" type="S" value=""/>
 					<Prp name="node name" type="S" value="calc"/>
 					<Prp name="parameters" type="S" value=""/>
 					<Prp name="userchangename" type="B" value="0"/>
@@ -64,7 +64,7 @@
 				</Node>
 				<Node name="data"/>
 				<Node name="test data"/>
-				<Prp name="key" type="S" value="{8657B667-D193-4CA3-A7E8-88855AD61764}"/>
+				<Prp name="key" type="S" value="{43DA0CC1-E470-485E-B147-37F8ADE6731D}"/>
 				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
 				<Prp name="typename" type="S" value="Tested Application"/>
 			</Node>
@@ -77,7 +77,7 @@
 			<Node name="folders"/>
 		</Node>
 		<Node name="test data"/>
-		<Prp name="key" type="S" value="{C7C62D51-718E-46D5-9022-0244FA7FCAE0}"/>
+		<Prp name="key" type="S" value="{37DB1406-DA65-44C5-9D6B-849C72E78E5A}"/>
 		<Prp name="signature" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
 		<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
 		<Prp name="typename" type="S" value="Tested Applications"/>

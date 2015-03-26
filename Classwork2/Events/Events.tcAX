@@ -176,17 +176,17 @@
 						<Prp name="info_tlbver" type="S" value="version.dll"/>
 					</Node>
 					<Prp name="eventinfocount" type="I" value="17"/>
-					<Prp name="generatedclsid" type="S" value="{3E04E913-05BC-4030-B616-46E2A236EA9E}"/>
-					<Prp name="generatedeventskey" type="S" value="{0E0CDB0D-B14F-48C8-B9FD-555C6B563047}"/>
-					<Prp name="generatedtlbdesc" type="S" value="TestComplete GeneralEvents Control - 3/25/2015 11:53:02 AM"/>
-					<Prp name="generatedtlbkey" type="S" value="{42719D8C-9573-4B1C-A979-3F9872722007}"/>
+					<Prp name="generatedclsid" type="S" value="{6F80A970-C350-4C73-957B-6FF95632CA36}"/>
+					<Prp name="generatedeventskey" type="S" value="{F3D1D328-F2F8-49B1-92F3-439DD9103557}"/>
+					<Prp name="generatedtlbdesc" type="S" value="TestComplete GeneralEvents Control - 3/25/2015 6:40:35 PM"/>
+					<Prp name="generatedtlbkey" type="S" value="{D013FAA8-4DF1-4CAF-B3B8-37D18EBB4E21}"/>
 					<Prp name="handlerinfocount" type="I" value="0"/>
 					<Prp name="lastopenedtlb" type="S" value=""/>
 					<Prp name="node name" type="S" value="GeneralEvents"/>
 				</Node>
 				<Node name="data"/>
 				<Node name="test data"/>
-				<Prp name="key" type="S" value="{D5685175-E251-4E9F-9022-9D792CE5F3A7}"/>
+				<Prp name="key" type="S" value="{21189404-B539-4E67-99D4-04D37D2536C1}"/>
 				<Prp name="type" type="S" value="{8A98BAC4-2A89-4883-AAE7-F07337DF59D1}"/>
 				<Prp name="typename" type="S" value="Event control"/>
 			</Node>
@@ -200,7 +200,7 @@
 			<Node name="folders"/>
 		</Node>
 		<Node name="test data"/>
-		<Prp name="key" type="S" value="{612D9DCC-F6DB-4881-BD3A-0647F15AE46A}"/>
+		<Prp name="key" type="S" value="{E4198087-8282-4676-AAEA-E86FE06CAA5D}"/>
 		<Prp name="signature" type="S" value="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}"/>
 		<Prp name="type" type="S" value="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}"/>
 		<Prp name="typename" type="S" value="Events"/>

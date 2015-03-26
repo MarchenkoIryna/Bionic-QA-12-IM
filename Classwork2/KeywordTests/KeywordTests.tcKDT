@@ -19,18 +19,14 @@
 ]>
 <Nodes version="1">
 	<Node name="root">
-		<Node name="data">
-			<Node name="{c7c62d51-718e-46d5-9022-0244fa7fcae0}">
-				<Node name="{8657b667-d193-4ca3-a7e8-88855ad61764}">
-					<Prp name="filepath" type="S" value="C:\WINDOWS\system32\"/>
-				</Node>
-			</Node>
-			<Node name="logs">
-				<Prp name="key" type="S" value="{EC558E09-EC50-4B70-BC1E-175B95EB2E0B}"/>
-				<Prp name="relpath" type="S" value="Log"/>
-			</Node>
-			<Node name="variables"/>
+		<Node name="child list"/>
+		<Node name="folders">
+			<Node name="folders"/>
 		</Node>
-		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+		<Node name="settings">
+			<Prp name="settingsversion" type="S" value="7.50"/>
+		</Node>
+		<Prp name="signature" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
+		<Prp name="version" type="S" value="7.0"/>
 	</Node>
 </Nodes>

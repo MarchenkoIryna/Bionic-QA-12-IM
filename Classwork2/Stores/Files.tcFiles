@@ -22,21 +22,20 @@
 		<Node name="child list">
 			<Node name="item0000000000">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="Test1.tcKDTest"/>
+					<Node name="settings">
+						<Prp name="settingsversion" type="S" value="7.50"/>
+					</Node>
+					<Prp name="caption" type="S" value="data.txt"/>
+					<Prp name="filename" type="S" value="Files\data.txt"/>
+					<Prp name="id" type="S" value="{0D791350-77B8-4A8F-8DA6-FCF38811A61C}"/>
+					<Prp name="signature" type="S" value="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="7.0"/>
 				</Node>
 				<Prp name="index" type="I" value="0"/>
-				<Prp name="key" type="S" value="{93CE0F4A-78CD-4A98-BE81-27AEB4272182}"/>
-				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
-				<Prp name="typename" type="S" value="Keyword Test"/>
-			</Node>
-			<Node name="item0000000001">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="Test2.tcKDTest"/>
-				</Node>
-				<Prp name="index" type="I" value="1"/>
-				<Prp name="key" type="S" value="{7EA8356E-C016-419E-87DB-300ABE94386D}"/>
-				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
-				<Prp name="typename" type="S" value="Keyword Test"/>
+				<Prp name="key" type="S" value="{0D791350-77B8-4A8F-8DA6-FCF38811A61C}"/>
+				<Prp name="type" type="S" value="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}"/>
+				<Prp name="typename" type="S" value="File"/>
 			</Node>
 		</Node>
 		<Node name="folders">
@@ -45,7 +44,7 @@
 		<Node name="settings">
 			<Prp name="settingsversion" type="S" value="7.50"/>
 		</Node>
-		<Prp name="signature" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
+		<Prp name="signature" type="S" value="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}"/>
 		<Prp name="version" type="S" value="7.0"/>
 	</Node>
 </Nodes>
