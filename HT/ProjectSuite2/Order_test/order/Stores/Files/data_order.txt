@@ -1,0 +1,6 @@
+Customer, Street, State, City, Zip, CardNo
+"Anna", "51th", "Arizona", "Phoenix", 12345, 123456789
+"Cris", "West", "Alaska", "Anchorage", 34467, 123451234
+"Tom", "East", "California", "Sacramento", 78298, 987678765
+"Scarlet", "Old Road", "Georgia", "Atlanta", 65784, 7463527489
+"Carrie", "Wall Street", "New York", "New York", 67484, 5739372839

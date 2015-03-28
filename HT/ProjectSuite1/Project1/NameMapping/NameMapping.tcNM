@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list"/>
+		<Node name="data">
+			<Node name="children">
+				<Node name="{2cec5d8e-93ab-4303-9c10-9baea524f367}">
+					<Node name="children">
+						<Node name="{ccffbe49-a917-4733-b6d9-47a9d98fc092}">
+							<Node name="children">
+								<Node name="{8b525969-f5e6-4154-b437-0736960ae368}">
+									<Node name="children">
+										<Node name="{5edc9313-5cf2-4255-8104-6c7b31ed0a23}">
+											<Node name="children"/>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="7"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+											</Node>
+											<Node name="type info">
+												<Prp name="item0" type="I" value="3"/>
+											</Node>
+											<Prp name="name" type="S" value="Edit"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="5"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="6"/>
+											<Prp name="name" type="S" value="WndCaption"/>
+										</Node>
+									</Node>
+									<Node name="type info">
+										<Prp name="item0" type="I" value="2"/>
+									</Node>
+									<Prp name="name" type="S" value="wndNotepad"/>
+								</Node>
+							</Node>
+							<Node name="properties">
+								<Node name="property0">
+									<Prp name="cookie" type="I" value="2"/>
+									<Prp name="name" type="S" value="ProcessName"/>
+								</Node>
+								<Node name="property1">
+									<Prp name="cookie" type="I" value="3"/>
+									<Prp name="name" type="S" value="FullName"/>
+								</Node>
+								<Node name="property2">
+									<Prp name="cookie" type="I" value="4"/>
+									<Prp name="name" type="S" value="Name"/>
+								</Node>
+							</Node>
+							<Node name="type info">
+								<Prp name="item0" type="I" value="1"/>
+							</Node>
+							<Prp name="name" type="S" value="notepad"/>
+						</Node>
+					</Node>
+					<Node name="properties">
+						<Node name="property0">
+							<Prp name="cookie" type="I" value="0"/>
+							<Prp name="name" type="S" value="Name"/>
+						</Node>
+						<Node name="property1">
+							<Prp name="cookie" type="I" value="1"/>
+							<Prp name="name" type="S" value="Id"/>
+						</Node>
+					</Node>
+					<Node name="type info">
+						<Prp name="item0" type="I" value="0"/>
+					</Node>
+					<Prp name="name" type="S" value="Sys"/>
+				</Node>
+			</Node>
+			<Node name="logical nodes">
+				<Node name="sys">
+					<Node name="notepad">
+						<Node name="wndnotepad">
+							<Node name="edit">
+								<Prp name="name" type="S" value="Edit"/>
+								<Prp name="owner" type="S" value="{5EDC9313-5CF2-4255-8104-6C7B31ED0A23}"/>
+							</Node>
+							<Prp name="name" type="S" value="wndNotepad"/>
+							<Prp name="owner" type="S" value="{8B525969-F5E6-4154-B437-0736960AE368}"/>
+						</Node>
+						<Prp name="name" type="S" value="notepad"/>
+						<Prp name="owner" type="S" value="{CCFFBE49-A917-4733-B6D9-47A9D98FC092}"/>
+					</Node>
+					<Prp name="name" type="S" value="Sys"/>
+					<Prp name="owner" type="S" value="{2CEC5D8E-93AB-4303-9C10-9BAEA524F367}"/>
+				</Node>
+				<Prp name="name" type="S" value="Aliases"/>
+				<Prp name="owner" type="S" value="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}"/>
+			</Node>
+			<Node name="properties"/>
+			<Node name="storages">
+				<Node name="child0">
+					<Node name="property0">
+						<Prp name="cookie" type="I" value="0"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Sys"/>
+					</Node>
+					<Node name="property1">
+						<Prp name="cookie" type="I" value="1"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="0"/>
+						<Prp name="value" type="I" value="-1"/>
+					</Node>
+					<Node name="property2">
+						<Prp name="cookie" type="I" value="2"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="notepad"/>
+					</Node>
+					<Node name="property3">
+						<Prp name="cookie" type="I" value="3"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Sys.Process(&quot;notepad&quot;)"/>
+					</Node>
+					<Node name="property4">
+						<Prp name="cookie" type="I" value="4"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Process(&quot;notepad&quot;)"/>
+					</Node>
+					<Node name="property5">
+						<Prp name="cookie" type="I" value="5"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Notepad"/>
+					</Node>
+					<Node name="property6">
+						<Prp name="cookie" type="I" value="6"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="*"/>
+					</Node>
+					<Node name="property7">
+						<Prp name="cookie" type="I" value="7"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Edit"/>
+					</Node>
+					<Prp name="name" type="S" value="Default Configuration"/>
+				</Node>
+				<Prp name="current" type="I" value="0"/>
+			</Node>
+			<Node name="typeinfo">
+				<Node name="child0">
+					<Node name="functions">
+						<Prp name="item0" type="S" value="_NewEnum"/>
+						<Prp name="item1" type="S" value="AddRef"/>
+						<Prp name="item10" type="S" value="DomainName"/>
+						<Prp name="item11" type="S" value="Exists"/>
+						<Prp name="item12" type="S" value="Find"/>
+						<Prp name="item13" type="S" value="FindAll"/>
+						<Prp name="item14" type="S" value="FindAllChildren"/>
+						<Prp name="item15" type="S" value="FindChild"/>
+						<Prp name="item16" type="S" value="FindId"/>
+						<Prp name="item17" type="S" value="FullName"/>
+						<Prp name="item18" type="S" value="GetIDsOfNames"/>
+						<Prp name="item19" type="S" value="GetTypeInfo"/>
+						<Prp name="item2" type="S" value="Child"/>
+						<Prp name="item20" type="S" value="GetTypeInfoCount"/>
+						<Prp name="item21" type="S" value="HighlightObject"/>
+						<Prp name="item22" type="S" value="HostName"/>
+						<Prp name="item23" type="S" value="Id"/>
+						<Prp name="item24" type="S" value="Invoke"/>
+						<Prp name="item25" type="S" value="Keys"/>
+						<Prp name="item26" type="S" value="MappedName"/>
+						<Prp name="item27" type="S" value="MemUsage"/>
+						<Prp name="item28" type="S" value="Name"/>
+						<Prp name="item29" type="S" value="ObjectFromPoint"/>
+						<Prp name="item3" type="S" value="ChildCount"/>
+						<Prp name="item30" type="S" value="OleObject"/>
+						<Prp name="item31" type="S" value="OSInfo"/>
+						<Prp name="item32" type="S" value="Parent"/>
+						<Prp name="item33" type="S" value="Process"/>
+						<Prp name="item34" type="S" value="QueryInterface"/>
+						<Prp name="item35" type="S" value="Refresh"/>
+						<Prp name="item36" type="S" value="Release"/>
+						<Prp name="item37" type="S" value="Restart"/>
+						<Prp name="item38" type="S" value="Shutdown"/>
+						<Prp name="item39" type="S" value="UserName"/>
+						<Prp name="item4" type="S" value="Clipboard"/>
+						<Prp name="item40" type="S" value="Validate"/>
+						<Prp name="item41" type="S" value="WaitChild"/>
+						<Prp name="item42" type="S" value="WaitProcess"/>
+						<Prp name="item43" type="S" value="WaitProperty"/>
+						<Prp name="item44" type="S" value="WindowFromHandle"/>
+						<Prp name="item5" type="S" value="Clipboard"/>
+						<Prp name="item6" type="S" value="CPU"/>
+						<Prp name="item7" type="S" value="CPUCount"/>
+						<Prp name="item8" type="S" value="CPUUsage"/>
+						<Prp name="item9" type="S" value="Desktop"/>
+					</Node>
+					<Node name="vars"/>
+					<Prp name="hash" type="I" value="-854725885"/>
+					<Prp name="properties" type="H" value="000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFF0000000004000000040000002D00000000000000000000000000000000000000000000000000000000000000"/>
+				</Node>
+				<Node name="child1">
+					<Node name="functions">
+						<Prp name="item0" type="S" value="_NewEnum"/>
+						<Prp name="item1" type="S" value="AddRef"/>
+						<Prp name="item10" type="S" value="Exists"/>
+						<Prp name="item11" type="S" value="FileVersionInfo"/>
+						<Prp name="item12" type="S" value="Find"/>
+						<Prp name="item13" type="S" value="FindAll"/>
+						<Prp name="item14" type="S" value="FindAllChildren"/>
+						<Prp name="item15" type="S" value="FindChild"/>
+						<Prp name="item16" type="S" value="FindId"/>
+						<Prp name="item17" type="S" value="FullName"/>
+						<Prp name="item18" type="S" value="GetIDsOfNames"/>
+						<Prp name="item19" type="S" value="GetTypeInfo"/>
+						<Prp name="item2" type="S" value="AppDomain"/>
+						<Prp name="item20" type="S" value="GetTypeInfoCount"/>
+						<Prp name="item21" type="S" value="HandleCount"/>
+						<Prp name="item22" type="S" value="Id"/>
+						<Prp name="item23" type="S" value="Index"/>
+						<Prp name="item24" type="S" value="Invoke"/>
+						<Prp name="item25" type="S" value="IsOpen"/>
+						<Prp name="item26" type="S" value="JavaFXObject"/>
+						<Prp name="item27" type="S" value="JavaVM"/>
+						<Prp name="item28" type="S" value="MappedName"/>
+						<Prp name="item29" type="S" value="MemUsage"/>
+						<Prp name="item3" type="S" value="AWTObject"/>
+						<Prp name="item30" type="S" value="Name"/>
+						<Prp name="item31" type="S" value="Parent"/>
+						<Prp name="item32" type="S" value="Path"/>
+						<Prp name="item33" type="S" value="Priority"/>
+						<Prp name="item34" type="S" value="ProcessID"/>
+						<Prp name="item35" type="S" value="ProcessName"/>
+						<Prp name="item36" type="S" value="ProcessType"/>
+						<Prp name="item37" type="S" value="QtObject"/>
+						<Prp name="item38" type="S" value="QueryInterface"/>
+						<Prp name="item39" type="S" value="Refresh"/>
+						<Prp name="item4" type="S" value="Child"/>
+						<Prp name="item40" type="S" value="Release"/>
+						<Prp name="item41" type="S" value="SessionId"/>
+						<Prp name="item42" type="S" value="SwingObject"/>
+						<Prp name="item43" type="S" value="SWTObject"/>
+						<Prp name="item44" type="S" value="System"/>
+						<Prp name="item45" type="S" value="Terminate"/>
+						<Prp name="item46" type="S" value="ThreadCount"/>
+						<Prp name="item47" type="S" value="UserName"/>
+						<Prp name="item48" type="S" value="Validate"/>
+						<Prp name="item49" type="S" value="VBObject"/>
+						<Prp name="item5" type="S" value="ChildCount"/>
+						<Prp name="item50" type="S" value="VCLNETObject"/>
+						<Prp name="item51" type="S" value="VCLObject"/>
+						<Prp name="item52" type="S" value="VMSize"/>
+						<Prp name="item53" type="S" value="WaitAppDomain"/>
+						<Prp name="item54" type="S" value="WaitAWTObject"/>
+						<Prp name="item55" type="S" value="WaitChild"/>
+						<Prp name="item56" type="S" value="WaitCLXObject"/>
+						<Prp name="item57" type="S" value="WaitJavaFXObject"/>
+						<Prp name="item58" type="S" value="WaitJavaVM"/>
+						<Prp name="item59" type="S" value="WaitProperty"/>
+						<Prp name="item6" type="S" value="Close"/>
+						<Prp name="item60" type="S" value="WaitQtObject"/>
+						<Prp name="item61" type="S" value="WaitSwingObject"/>
+						<Prp name="item62" type="S" value="WaitSWTObject"/>
+						<Prp name="item63" type="S" value="WaitVBObject"/>
+						<Prp name="item64" type="S" value="WaitVCLNETObject"/>
+						<Prp name="item65" type="S" value="WaitVCLObject"/>
+						<Prp name="item66" type="S" value="WaitWFCObject"/>
+						<Prp name="item67" type="S" value="WaitWindow"/>
+						<Prp name="item68" type="S" value="WaitWinFormsObject"/>
+						<Prp name="item69" type="S" value="WaitWPFObject"/>
+						<Prp name="item7" type="S" value="CLXObject"/>
+						<Prp name="item70" type="S" value="WFCObject"/>
+						<Prp name="item71" type="S" value="Window"/>
+						<Prp name="item72" type="S" value="WinFormsObject"/>
+						<Prp name="item73" type="S" value="WPFObject"/>
+						<Prp name="item8" type="S" value="CommandLine"/>
+						<Prp name="item9" type="S" value="CPUUsage"/>
+					</Node>
+					<Node name="vars"/>
+					<Prp name="hash" type="I" value="-1360993442"/>
+					<Prp name="properties" type="H" value="000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFF0000000004000000040000004A00000000000000000000000000000000000000000000000000000000000000"/>
+				</Node>
+				<Node name="child2">
+					<Node name="functions">
+						<Prp name="item0" type="S" value="_NewEnum"/>
+						<Prp name="item1" type="S" value="Activate"/>
+						<Prp name="item10" type="S" value="CLXObject"/>
+						<Prp name="item100" type="S" value="WndClass"/>
+						<Prp name="item101" type="S" value="WndStyles"/>
+						<Prp name="item102" type="S" value="WndStylesEx"/>
+						<Prp name="item103" type="S" value="WPFObject"/>
+						<Prp name="item11" type="S" value="ControlId"/>
+						<Prp name="item12" type="S" value="DblClick"/>
+						<Prp name="item13" type="S" value="DblClickM"/>
+						<Prp name="item14" type="S" value="DblClickR"/>
+						<Prp name="item15" type="S" value="Drag"/>
+						<Prp name="item16" type="S" value="DragM"/>
+						<Prp name="item17" type="S" value="DragR"/>
+						<Prp name="item18" type="S" value="Enabled"/>
+						<Prp name="item19" type="S" value="Exists"/>
+						<Prp name="item2" type="S" value="AddRef"/>
+						<Prp name="item20" type="S" value="Find"/>
+						<Prp name="item21" type="S" value="FindAll"/>
+						<Prp name="item22" type="S" value="FindAllChildren"/>
+						<Prp name="item23" type="S" value="FindChild"/>
+						<Prp name="item24" type="S" value="FindId"/>
+						<Prp name="item25" type="S" value="Focused"/>
+						<Prp name="item26" type="S" value="FullName"/>
+						<Prp name="item27" type="S" value="GetIDsOfNames"/>
+						<Prp name="item28" type="S" value="GetTypeInfo"/>
+						<Prp name="item29" type="S" value="GetTypeInfoCount"/>
+						<Prp name="item3" type="S" value="AWTObject"/>
+						<Prp name="item30" type="S" value="Handle"/>
+						<Prp name="item31" type="S" value="Height"/>
+						<Prp name="item32" type="S" value="HoverMouse"/>
+						<Prp name="item33" type="S" value="HScroll"/>
+						<Prp name="item34" type="S" value="Id"/>
+						<Prp name="item35" type="S" value="Index"/>
+						<Prp name="item36" type="S" value="Invoke"/>
+						<Prp name="item37" type="S" value="JavaFXObject"/>
+						<Prp name="item38" type="S" value="Keys"/>
+						<Prp name="item39" type="S" value="Left"/>
+						<Prp name="item4" type="S" value="Child"/>
+						<Prp name="item40" type="S" value="MainMenu"/>
+						<Prp name="item41" type="S" value="MappedName"/>
+						<Prp name="item42" type="S" value="Maximize"/>
+						<Prp name="item43" type="S" value="Minimize"/>
+						<Prp name="item44" type="S" value="MouseWheel"/>
+						<Prp name="item45" type="S" value="MSAAObject"/>
+						<Prp name="item46" type="S" value="Name"/>
+						<Prp name="item47" type="S" value="ObjectFromPoint"/>
+						<Prp name="item48" type="S" value="Parent"/>
+						<Prp name="item49" type="S" value="Picture"/>
+						<Prp name="item5" type="S" value="ChildCount"/>
+						<Prp name="item50" type="S" value="PopupMenu"/>
+						<Prp name="item51" type="S" value="Position"/>
+						<Prp name="item52" type="S" value="QtObject"/>
+						<Prp name="item53" type="S" value="QueryInterface"/>
+						<Prp name="item54" type="S" value="RecordCaption"/>
+						<Prp name="item55" type="S" value="RecordClass"/>
+						<Prp name="item56" type="S" value="Refresh"/>
+						<Prp name="item57" type="S" value="Release"/>
+						<Prp name="item58" type="S" value="Restore"/>
+						<Prp name="item59" type="S" value="ScreenLeft"/>
+						<Prp name="item6" type="S" value="Click"/>
+						<Prp name="item60" type="S" value="ScreenTop"/>
+						<Prp name="item61" type="S" value="ScreenToWindow"/>
+						<Prp name="item62" type="S" value="SetFocus"/>
+						<Prp name="item63" type="S" value="SwingObject"/>
+						<Prp name="item64" type="S" value="SWTObject"/>
+						<Prp name="item65" type="S" value="SystemMenu"/>
+						<Prp name="item66" type="S" value="TextObject"/>
+						<Prp name="item67" type="S" value="Top"/>
+						<Prp name="item68" type="S" value="Unicode"/>
+						<Prp name="item69" type="S" value="Validate"/>
+						<Prp name="item7" type="S" value="ClickM"/>
+						<Prp name="item70" type="S" value="VBObject"/>
+						<Prp name="item71" type="S" value="VCLNETObject"/>
+						<Prp name="item72" type="S" value="VCLObject"/>
+						<Prp name="item73" type="S" value="Visible"/>
+						<Prp name="item74" type="S" value="VisibleOnScreen"/>
+						<Prp name="item75" type="S" value="VScroll"/>
+						<Prp name="item76" type="S" value="WaitAWTObject"/>
+						<Prp name="item77" type="S" value="WaitChild"/>
+						<Prp name="item78" type="S" value="WaitCLXObject"/>
+						<Prp name="item79" type="S" value="WaitJavaFXObject"/>
+						<Prp name="item8" type="S" value="ClickR"/>
+						<Prp name="item80" type="S" value="WaitMSAAObject"/>
+						<Prp name="item81" type="S" value="WaitProperty"/>
+						<Prp name="item82" type="S" value="WaitQtObject"/>
+						<Prp name="item83" type="S" value="WaitSwingObject"/>
+						<Prp name="item84" type="S" value="WaitSWTObject"/>
+						<Prp name="item85" type="S" value="WaitTextObject"/>
+						<Prp name="item86" type="S" value="WaitVBObject"/>
+						<Prp name="item87" type="S" value="WaitVCLNETObject"/>
+						<Prp name="item88" type="S" value="WaitVCLObject"/>
+						<Prp name="item89" type="S" value="WaitWFCObject"/>
+						<Prp name="item9" type="S" value="Close"/>
+						<Prp name="item90" type="S" value="WaitWindow"/>
+						<Prp name="item91" type="S" value="WaitWinFormsObject"/>
+						<Prp name="item92" type="S" value="WaitWPFObject"/>
+						<Prp name="item93" type="S" value="WFCObject"/>
+						<Prp name="item94" type="S" value="Width"/>
+						<Prp name="item95" type="S" value="Window"/>
+						<Prp name="item96" type="S" value="WindowToScreen"/>
+						<Prp name="item97" type="S" value="WinFormsObject"/>
+						<Prp name="item98" type="S" value="WndCaption"/>
+						<Prp name="item99" type="S" value="WndCaption"/>
+					</Node>
+					<Node name="vars"/>
+					<Prp name="hash" type="I" value="808815388"/>
+					<Prp name="properties" type="H" value="000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFF0000000004000000040000006800000000000000000000000000000000000000000000000000000000000000"/>
+				</Node>
+				<Node name="child3">
+					<Node name="functions">
+						<Prp name="item0" type="S" value="_NewEnum"/>
+						<Prp name="item1" type="S" value="AddRef"/>
+						<Prp name="item10" type="S" value="DblClick"/>
+						<Prp name="item100" type="S" value="wSelectionEnd"/>
+						<Prp name="item101" type="S" value="wSelectionStart"/>
+						<Prp name="item102" type="S" value="wText"/>
+						<Prp name="item103" type="S" value="wText"/>
+						<Prp name="item11" type="S" value="DblClickM"/>
+						<Prp name="item12" type="S" value="DblClickR"/>
+						<Prp name="item13" type="S" value="Drag"/>
+						<Prp name="item14" type="S" value="DragM"/>
+						<Prp name="item15" type="S" value="DragR"/>
+						<Prp name="item16" type="S" value="Enabled"/>
+						<Prp name="item17" type="S" value="Exists"/>
+						<Prp name="item18" type="S" value="Find"/>
+						<Prp name="item19" type="S" value="FindAll"/>
+						<Prp name="item2" type="S" value="AWTObject"/>
+						<Prp name="item20" type="S" value="FindAllChildren"/>
+						<Prp name="item21" type="S" value="FindChild"/>
+						<Prp name="item22" type="S" value="FindId"/>
+						<Prp name="item23" type="S" value="Focused"/>
+						<Prp name="item24" type="S" value="FullName"/>
+						<Prp name="item25" type="S" value="GetIDsOfNames"/>
+						<Prp name="item26" type="S" value="GetTypeInfo"/>
+						<Prp name="item27" type="S" value="GetTypeInfoCount"/>
+						<Prp name="item28" type="S" value="Handle"/>
+						<Prp name="item29" type="S" value="Height"/>
+						<Prp name="item3" type="S" value="Child"/>
+						<Prp name="item30" type="S" value="HoverMouse"/>
+						<Prp name="item31" type="S" value="HScroll"/>
+						<Prp name="item32" type="S" value="Id"/>
+						<Prp name="item33" type="S" value="Index"/>
+						<Prp name="item34" type="S" value="Invoke"/>
+						<Prp name="item35" type="S" value="JavaFXObject"/>
+						<Prp name="item36" type="S" value="Keys"/>
+						<Prp name="item37" type="S" value="Left"/>
+						<Prp name="item38" type="S" value="MappedName"/>
+						<Prp name="item39" type="S" value="MouseWheel"/>
+						<Prp name="item4" type="S" value="ChildCount"/>
+						<Prp name="item40" type="S" value="MSAAObject"/>
+						<Prp name="item41" type="S" value="Name"/>
+						<Prp name="item42" type="S" value="ObjectFromPoint"/>
+						<Prp name="item43" type="S" value="Parent"/>
+						<Prp name="item44" type="S" value="Picture"/>
+						<Prp name="item45" type="S" value="PopupMenu"/>
+						<Prp name="item46" type="S" value="QtObject"/>
+						<Prp name="item47" type="S" value="QueryInterface"/>
+						<Prp name="item48" type="S" value="RecordCaption"/>
+						<Prp name="item49" type="S" value="RecordClass"/>
+						<Prp name="item5" type="S" value="Click"/>
+						<Prp name="item50" type="S" value="Refresh"/>
+						<Prp name="item51" type="S" value="Release"/>
+						<Prp name="item52" type="S" value="ScreenLeft"/>
+						<Prp name="item53" type="S" value="ScreenTop"/>
+						<Prp name="item54" type="S" value="ScreenToWindow"/>
+						<Prp name="item55" type="S" value="SetFocus"/>
+						<Prp name="item56" type="S" value="SwingObject"/>
+						<Prp name="item57" type="S" value="SWTObject"/>
+						<Prp name="item58" type="S" value="TextObject"/>
+						<Prp name="item59" type="S" value="Top"/>
+						<Prp name="item6" type="S" value="ClickM"/>
+						<Prp name="item60" type="S" value="Unicode"/>
+						<Prp name="item61" type="S" value="Validate"/>
+						<Prp name="item62" type="S" value="VBObject"/>
+						<Prp name="item63" type="S" value="VCLNETObject"/>
+						<Prp name="item64" type="S" value="VCLObject"/>
+						<Prp name="item65" type="S" value="Visible"/>
+						<Prp name="item66" type="S" value="VisibleOnScreen"/>
+						<Prp name="item67" type="S" value="VScroll"/>
+						<Prp name="item68" type="S" value="WaitAWTObject"/>
+						<Prp name="item69" type="S" value="WaitChild"/>
+						<Prp name="item7" type="S" value="ClickR"/>
+						<Prp name="item70" type="S" value="WaitCLXObject"/>
+						<Prp name="item71" type="S" value="WaitJavaFXObject"/>
+						<Prp name="item72" type="S" value="WaitMSAAObject"/>
+						<Prp name="item73" type="S" value="WaitProperty"/>
+						<Prp name="item74" type="S" value="WaitQtObject"/>
+						<Prp name="item75" type="S" value="WaitSwingObject"/>
+						<Prp name="item76" type="S" value="WaitSWTObject"/>
+						<Prp name="item77" type="S" value="WaitTextObject"/>
+						<Prp name="item78" type="S" value="WaitVBObject"/>
+						<Prp name="item79" type="S" value="WaitVCLNETObject"/>
+						<Prp name="item8" type="S" value="CLXObject"/>
+						<Prp name="item80" type="S" value="WaitVCLObject"/>
+						<Prp name="item81" type="S" value="WaitWFCObject"/>
+						<Prp name="item82" type="S" value="WaitWindow"/>
+						<Prp name="item83" type="S" value="WaitWinFormsObject"/>
+						<Prp name="item84" type="S" value="WaitWPFObject"/>
+						<Prp name="item85" type="S" value="wCueBanner"/>
+						<Prp name="item86" type="S" value="WFCObject"/>
+						<Prp name="item87" type="S" value="Width"/>
+						<Prp name="item88" type="S" value="Window"/>
+						<Prp name="item89" type="S" value="WindowToScreen"/>
+						<Prp name="item9" type="S" value="ControlId"/>
+						<Prp name="item90" type="S" value="WinFormsObject"/>
+						<Prp name="item91" type="S" value="wLimit"/>
+						<Prp name="item92" type="S" value="WndCaption"/>
+						<Prp name="item93" type="S" value="WndCaption"/>
+						<Prp name="item94" type="S" value="WndClass"/>
+						<Prp name="item95" type="S" value="WndStyles"/>
+						<Prp name="item96" type="S" value="WndStylesEx"/>
+						<Prp name="item97" type="S" value="wPasswordChar"/>
+						<Prp name="item98" type="S" value="WPFObject"/>
+						<Prp name="item99" type="S" value="wSelection"/>
+					</Node>
+					<Node name="vars"/>
+					<Prp name="hash" type="I" value="-707094674"/>
+					<Prp name="properties" type="H" value="000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFF0000000004000000040000006800000000000000000000000000000000000000000000000000000000000000"/>
+				</Node>
+			</Node>
+			<Prp name="cookie" type="I" value="30"/>
+			<Prp name="name" type="S" value="NameMapping"/>
+			<Prp name="version" type="I" value="3"/>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="settings">
+			<Prp name="settingsversion" type="S" value="7.50"/>
+		</Node>
+		<Prp name="signature" type="S" value="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>
